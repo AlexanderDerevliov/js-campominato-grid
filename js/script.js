@@ -3,15 +3,14 @@
 
 document.getElementById("playBtn").addEventListener("click", initGame )
 
-const numbersArray = generateRandomOrderNumbers(100);
+const numbersArray = generateNumbers(100);
 
 const gridElem = document.querySelector(".grid");
 
-
+  // Generare la cella della griglia quando avviene il click di gioco
 function initGame() {
 for (let i = 0; i < numbersArray.length; i++) {
     const curNumber = numbersArray[i];
-    // Generare la cella della griglia quando avviene il click di gioco
     const cell = generateGridCell(curNumber);
     cell.addEventListener("click", initGame)
   

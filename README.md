@@ -15,3 +15,12 @@ Ad esempio:
 Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+# Soluzione #
+
+- [x] generare la griglia tramite Js al click del bottone
+. [x] genero numeri da 1 a 100 in celle su html tramite js
+   - [x] livello di dificoltà semplice a 49
+   - [x] livello di dificoltà semplice a 81
+   - [x] livello di dificoltà semplice a 100
+. [x] creare una funzione

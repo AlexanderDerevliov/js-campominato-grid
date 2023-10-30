@@ -45,10 +45,6 @@ function createElement(tagHtml, classe, contenuto) {
 }
 
 
-
-
-
-
 // funzioni di colore al click sulla cella
 function handleCellClick() {
     const clickedNumber = parseInt(this.textContent);
